@@ -1,5 +1,5 @@
 ## Question
-Given a string s, return true if it is a palindrome, otherwise return false.
+Given a string `s`, return true if it is a palindrome, otherwise return false.
 A palindrome is a string that reads the same forward and backward. It is also case-insensitive and ignores all non-alphanumeric characters.
 ### Example 1:
 
@@ -21,6 +21,7 @@ Output: false
 
 ```
 Explanation: "tabacat" is not a palindrome.
+
 Constraints:
 1 <= s.length <= 1000
 s is made up of only printable ASCII characters.
