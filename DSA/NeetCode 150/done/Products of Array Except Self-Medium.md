@@ -43,7 +43,12 @@ You should aim for a solution as good or better than O(n) time and O(n) space, w
 	- MaxNonZero: current product of a elements (excluding elements equal to 0)
 	- Zeros: number of elements equal to 0 in `nums`
 - Iterate over `nums` again updating each value 
-	- If zeros > 1 then set the value to 
+	- If zeros > 1 then set the value to 0 
+		- This means in every subset where the current number is excluded there is at least 1 zero
+	- If the current value == 0 then set the value to MaxNonZero 
+		- This is to avoid the divide by 0 error 
+	- Otherwise the value is max divided by the current value 
+		- `max / nums[i]`
 ## Code
 
 ```java
