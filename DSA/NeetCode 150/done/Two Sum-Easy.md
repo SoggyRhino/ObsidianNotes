@@ -98,11 +98,11 @@ public:
 
         for (int i =0; i < nums.size(); i++){
 
-            int comp = target - nums.at(i);
+            int comp = target - nums[i];
 
             if (map.find(comp) != map.end())
 
-                return {i, map.at(comp)};
+                return {i, map[comp]};
 
             map[nums.at(i)] = i;
 
@@ -118,4 +118,4 @@ public:
 
 [NeetCode](https://neetcode.io/problems/two-integer-sum)
 
-[LeetCode](https://leetcode.com/problems/two-sum/description/)
+[LeetCode](https://leetcode.com/problems/two-sum/description/
