@@ -3,7 +3,8 @@ date created: 2025-01-09 15:21
 date updated: 2025-01-09 15:56
 ---
 
-Tags : [[Array]] [[Hash Table]]
+Tags: [[Array]] [[Hash Table]]
+Similar Questions: [[Group Anagrams-Medium]], [[Find All Anagrams in a String-Medium]], [[Find Resultant Array After Removing Anagrams-Easy]]
 
 ## Question
 
@@ -110,3 +111,7 @@ bool isAnagram(const std::string& s, const std::string& t) {
 [NeetCode](https://neetcode.io/problems/is-anagram)
 
 [LeetCode](https://leetcode.com/problems/valid-anagram/)
+
+
+
+

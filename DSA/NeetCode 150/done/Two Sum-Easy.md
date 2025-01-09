@@ -2,6 +2,7 @@
 date created: 2025-01-09 15:08
 ---
 Tags : [[Array]] [[Hash Table]]
+Similar Questions: [[3Sum-Medium]], [[4Sum-Medium]], [[Two Sum II - Input Array Is Sorted-Medium]], [[Subarray Sum Equals K-Medium]], [[Two Sum IV - Input is a BST-Easy]], [[Max Number of K-Sum Pairs-Medium]], [[Count Good Meals-Medium]], [[Count Number of Pairs With Absolute Difference K-Easy]], [[Number of Pairs of Strings With Concatenation Equal to Target-Medium]], [[Find All K-Distant Indices in an Array-Easy]], [[First Letter to Appear Twice-Easy]], [[Number of Excellent Pairs-Hard]], [[Number of Arithmetic Triplets-Easy]], [[Node With Highest Edge Score-Medium]], [[Check Distances Between Same Letters-Easy]], [[Find Subarrays With Equal Sum-Easy]], [[Largest Positive Integer That Exists With Its Negative-Easy]], [[Number of Distinct Averages-Easy]], [[Count Pairs Whose Sum is Less than Target-Easy]]
 ## Question
 
 Given an array of integers `nums` and an integer target, return the indices `i` and `j` such that `nums[i] + nums[j] == target` and `i != j`.
@@ -118,4 +119,6 @@ public:
 
 [NeetCode](https://neetcode.io/problems/two-integer-sum)
 
-[LeetCode](https://leetcode.com/problems/two-sum/description/
+[LeetCode](https://leetcode.com/problems/two-sum/description/)
+
+

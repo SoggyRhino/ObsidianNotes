@@ -1,7 +1,10 @@
 ---
 date created: 2025-01-09 15:57
+date updated: 2025-01-09 17:11
 ---
+
 Tags: [[Hash Table]]
+Similar Questions: [[Contains Duplicate II-Easy]], [[Contains Duplicate III-Hard]], [[Make Array Zero by Subtracting Equal Amounts-Easy]]
 ## Question
 
 Given an integer array `nums`, return true if any value appears more than once in the array, otherwise return false.
@@ -32,8 +35,8 @@ You should aim for a solution with O(n) time and O(n) space, where n is the size
 
 - Make a Set
 - for each element
-  - if set contains element return true
-- Other wise return false
+  -If set contains element return true
+- Otherwise return false
 
 ## Code
 
@@ -56,4 +59,6 @@ public class Solution {
 
 [NeetCode](https://neetcode.io/problems/duplicate-integer)
 
-[LeetCode](https://neetcode.io/problems/duplicate-integer)
+[LeetCode](https://leetcode.com/problems/contains-duplicate)
+
+
