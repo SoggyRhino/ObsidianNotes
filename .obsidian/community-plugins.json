@@ -1,4 +1,7 @@
 [
   "github-sync",
-  "markdown-prettifier"
+  "markdown-prettifier",
+  "code-styler",
+  "obsidian-plugin-prettier",
+  "settings-search"
 ]
