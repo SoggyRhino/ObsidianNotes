@@ -1,8 +1,10 @@
 ---
 date created: 2025-01-09 15:08
+tags:
+  - Easy
 ---
 Tags : [[Array]] [[Hash Table]]
-Similar Questions: [[3Sum-Medium]], [[4Sum-Medium]], [[Two Sum II - Input Array Is Sorted-Medium]], [[Subarray Sum Equals K-Medium]], [[Two Sum IV - Input is a BST-Easy]], [[Max Number of K-Sum Pairs-Medium]], [[Count Good Meals-Medium]], [[Count Number of Pairs With Absolute Difference K-Easy]], [[Number of Pairs of Strings With Concatenation Equal to Target-Medium]], [[Find All K-Distant Indices in an Array-Easy]], [[First Letter to Appear Twice-Easy]], [[Number of Excellent Pairs-Hard]], [[Number of Arithmetic Triplets-Easy]], [[Node With Highest Edge Score-Medium]], [[Check Distances Between Same Letters-Easy]], [[Find Subarrays With Equal Sum-Easy]], [[Largest Positive Integer That Exists With Its Negative-Easy]], [[Number of Distinct Averages-Easy]], [[Count Pairs Whose Sum is Less than Target-Easy]]
+Similar Questions: [[3Sum]], [[4Sum]], [[Two Sum II - Input Array Is Sorted]], [[Subarray Sum Equals K]], [[Two Sum IV - Input is a BST]], [[Max Number of K-Sum Pairs]], [[Count Good Meals]], [[Count Number of Pairs With Absolute Difference K]], [[Number of Pairs of Strings With Concatenation Equal to Target]], [[Find All K-Distant Indices in an Array]], [[First Letter to Appear Twice]], [[Number of Excellent Pairs]], [[Number of Arithmetic Triplets]], [[Node With Highest Edge Score]], [[Check Distances Between Same Letters]], [[Find Subarrays With Equal Sum]], [[Largest Positive Integer That Exists With Its Negative]], [[Number of Distinct Averages]], [[Count Pairs Whose Sum is Less than Target]]
 ## Question
 
 Given an array of integers `nums` and an integer target, return the indices `i` and `j` such that `nums[i] + nums[j] == target` and `i != j`.
@@ -12,8 +14,7 @@ Return the answer with the smaller index first.
 ### Example 1:
 
 ```java
-Input: 
-nums = [3,4,5,6], target = 7
+Input: nums = [3,4,5,6], target = 7
 
 Output: [0,1]
 
@@ -55,9 +56,6 @@ You should aim for a solution with O(n) time and O(n) space, where n is the size
 - For each element in the array 
 	- If the complement is in the array then return current index and compliment index 
 	- Else add the current value and index to the array 
-
-
-
 
 ## Code
 

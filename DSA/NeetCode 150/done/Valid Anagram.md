@@ -4,7 +4,7 @@ date updated: 2025-01-09 15:56
 ---
 
 Tags: [[Array]] [[Hash Table]]
-Similar Questions: [[Group Anagrams-Medium]], [[Find All Anagrams in a String-Medium]], [[Find Resultant Array After Removing Anagrams-Easy]]
+Similar Questions: [[Group Anagrams]], [[Find All Anagrams in a String]], [[Find Resultant Array After Removing Anagrams]]
 
 ## Question
 

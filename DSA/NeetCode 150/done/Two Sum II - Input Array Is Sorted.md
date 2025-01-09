@@ -1,8 +1,10 @@
 ---
 date created: 2025-01-09 17:22
+tags:
+  - Medium
 ---
-Tags:
-Similar Questions: [[Array]] [[Two Pointers]]
+Tags: [[Array]] [[Two Pointers]]
+Similar Questions: [[Two Sum]], [[Two Sum IV - Input is a BST-Easy]]
 ## Question
 
 Given an array of integers numbers that is sorted in non-decreasing order.

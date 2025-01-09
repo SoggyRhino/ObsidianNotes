@@ -1,11 +1,12 @@
 ---
 date created: 2025-01-07 18:58
-date updated: 2025-01-09 16:16
+date updated: 2025-01-09 17:32
 tags:
+  - Medium
 ---
 
 Tags: [[Hash Table]], [[Array]], [[Heap]]
-Similar Questions: [[Word Frequency-Medium]], [[Kth Largest Element in an Array-Medium]], [[Sort Characters By Frequency-Medium]], [[Split Array into Consecutive Subsequences-Medium]], [[Top K Frequent Words-Medium]], [[K Closest Points to Origin-Medium]], [[Sender With Largest Word Count-Medium]], [[Most Frequent Even Element-Easy]]
+Similar Questions: [[Word Frequency]], [[Kth Largest Element in an Array]], [[Sort Characters By Frequency]], [[Split Array into Consecutive Subsequences]], [[Top K Frequent Words]], [[K Closest Points to Origin]], [[Sender With Largest Word Count]], [[Most Frequent Even Element]]
 
 ## Question
 
@@ -42,15 +43,16 @@ Output: [7]
 You should aim for a solution with `O(n)` time and `O(n)` space, where n is the size of the input array.
 
 ## Algorithm
-- Use a HashMap to store the count of each element in the array 
-- Create a Heap (Priority Queue) 
-	- Sort by second value in a pair 
+
+- Use a HashMap to store the count of each element in the array
+- Create a Heap (Priority Queue)
+  - Sort by second value in a pair
 - Add each pair (value and count) to the heap
 - Pop the k elements from the list and return as an array
 
 ## Code
 
-```java 
+```java
 
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
@@ -89,16 +91,11 @@ class Solution {
 ```
 
 ```C++
-  
-
 #include <vector>
 
 #include <unordered_map>
 
 #include <algorithm>  
-
-  
-  
 
 class Solution {
 

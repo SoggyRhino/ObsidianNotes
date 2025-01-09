@@ -1,10 +1,12 @@
 ---
 date created: 2025-01-09 17:15
 date updated: 2025-01-09 17:17
+tags:
+  - Medium
 ---
 
 Tags: [[Array]], [[Hash Table]]
-Similar Questions: [[Find Three Consecutive Integers That Sum to a Given Number-Medium]], [[Maximum Consecutive Floors Without Special Floors-Medium]], [[Length of the Longest Alphabetical Continuous Substring-Medium]], [[Find the Maximum Number of Elements in Subset-Medium]]
+Similar Questions: [[Find Three Consecutive Integers That Sum to a Given Number]], [[Maximum Consecutive Floors Without Special Floors]], [[Length of the Longest Alphabetical Continuous Substring]], [[Find the Maximum Number of Elements in Subset]]
 
 ## Question
 

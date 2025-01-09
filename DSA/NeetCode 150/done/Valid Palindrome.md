@@ -4,7 +4,7 @@ date updated: 2025-01-09 15:37
 ---
 
 Tags: [[Two Pointers]] [[Strings]]
-Similar Questions: [[Palindrome Linked List-Easy]], [[Valid Palindrome II-Easy]], [[Maximum Product of the Length of Two Palindromic Subsequences-Medium]], [[Find First Palindromic String in the Array-Easy]], [[Maximum Palindromes After Operations-Medium]]
+Similar Questions: [[Palindrome Linked List]], [[Valid Palindrome II]], [[Maximum Product of the Length of Two Palindromic Subsequences]], [[Find First Palindromic String in the Array]], [[Maximum Palindromes After Operations]]
 ## Question
 
 Given a string `s`, return true if it is a palindrome, otherwise return false.

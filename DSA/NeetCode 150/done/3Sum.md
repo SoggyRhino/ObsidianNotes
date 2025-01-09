@@ -1,10 +1,12 @@
 ---
 date created: 2025-01-09 15:38
 date updated: 2025-01-09 17:13
+tags:
+  - Medium
 ---
 
 Tags: [[Array]] [[Two Pointers]]
-Similar Questions: [[Two Sum-Easy]], [[3Sum Closest-Medium]], [[4Sum-Medium]], [[Number of Arithmetic Triplets-Easy]], [[Minimum Sum of Mountain Triplets I-Easy]], [[Minimum Sum of Mountain Triplets II-Medium]]
+Similar Questions: [[Two Sum]], [[3Sum Closest-Medium]], [[4Sum-Medium]], [[Number of Arithmetic Triplets-Easy]], [[Minimum Sum of Mountain Triplets I-Easy]], [[Minimum Sum of Mountain Triplets II-Medium]]
 
 ## Question
 

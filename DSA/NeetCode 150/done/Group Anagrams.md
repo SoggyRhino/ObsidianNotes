@@ -1,10 +1,12 @@
 ---
 date created: 2025-01-09 16:07
 date updated: 2025-01-09 16:14
+tags:
+  - Medium
 ---
 
 Tags: [[Array]], [[Hash Table]], [[Strings]]
-Similar Questions: [[Valid Anagram-Easy]], [[Find Resultant Array After Removing Anagrams-Easy]], [[Count Anagrams-Hard]]
+Similar Questions: [[Valid Anagram]], [[Find Resultant Array After Removing Anagrams]], [[Count Anagrams]]
 
 ## Question
 
@@ -35,6 +37,11 @@ Output: [["x"]]
 Input: strs = [""]
 
 Output: [[""]]
+
+
+
+
+
 
 ```
 

@@ -1,10 +1,12 @@
 ---
 date created: 2025-01-09 15:57
 date updated: 2025-01-09 17:11
+tags:
+  - Easy
 ---
 
 Tags: [[Hash Table]]
-Similar Questions: [[Contains Duplicate II-Easy]], [[Contains Duplicate III-Hard]], [[Make Array Zero by Subtracting Equal Amounts-Easy]]
+Similar Questions: [[Contains Duplicate II]], [[Contains Duplicate III]], [[Make Array Zero by Subtracting Equal Amounts]]
 ## Question
 
 Given an integer array `nums`, return true if any value appears more than once in the array, otherwise return false.

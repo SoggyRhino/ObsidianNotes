@@ -2,7 +2,7 @@
 date created: 2025-01-09 16:50
 ---
 Tags: [[Array]], [[Hash Table]], [[Matrix]]
-Similar Questions: [[Sudoku Solver-Hard]], [[Check if Every Row and Column Contains All Numbers-Easy]]
+Similar Questions: [[Sudoku Solver]], [[Check if Every Row and Column Contains All Numbers]]
 ## Question
 
 You are given a a 9 x 9 Sudoku board board. A Sudoku board is valid if the following rules are followed:
