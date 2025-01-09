@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/done/Two Sum-Easy.md",
+                "file": "DSA/NeetCode 150/Two Sum-Easy.md",
                 "mode": "source",
                 "source": false
               },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Two Sum-ea",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -165,13 +166,15 @@
   },
   "active": "a40e2e8b8524e87b",
   "lastOpenFiles": [
-    "Tags/Array.md",
-    "Tags/Hash Table.md",
-    "Tags/Two Pointers.md",
-    "DSA/NeetCode 150/3Sum-Medium.md",
+    "DSA/NeetCode 150/done/Contains Duplicate-Easy.md",
+    "DSA/NeetCode 150/Add Two Numbers-Medium.md",
     "DSA/NeetCode 150/done/Two Sum-Easy.md",
-    "DSA/NeetCode 150/done/Valid Palindrome-Easy.md",
     "DSA/NeetCode 150/done/Valid Anagram-Easy.md",
+    "DSA/NeetCode 150/done/Valid Palindrome-Easy.md",
+    "DSA/NeetCode 150/done/3Sum-Medium.md",
+    "Tags/Hash Table.md",
+    "Tags/Array.md",
+    "Tags/Two Pointers.md",
     "HashTable.md",
     "DSA",
     "Untitled.canvas",
@@ -191,11 +194,9 @@
     "NeetCode 150/New folder/Is Valid Anagram - Easy.md",
     "DSA/NeetCode 150/Group Anagrams-Medium.md",
     "NeetCode 150/New folder/Group Anagrams - Medium.md",
-    "DSA/NeetCode 150/Contains Duplicate-Easy.md",
     "NeetCode 150/New folder/Contains Duplicate Integer- Easy.md",
     "DSA/NeetCode 150/Word Search-Medium.md",
     "DSA/NeetCode 150/Word Search II-Hard.md",
-    "DSA/NeetCode 150/Word Ladder-Hard.md",
     "NeetCode 150/New shortcut.lnk",
     "DSA Notes/Neetcode/LinkedList",
     "DSA Notes/Neetcode",

@@ -1,7 +1,10 @@
 ---
 date created: 2025-01-09 15:21
+date updated: 2025-01-09 15:56
 ---
+
 Tags : [[Array]] [[Hash Table]]
+
 ## Question
 
 Given two strings `s` and `t`, return true if the two strings are anagrams of each other, otherwise return false.
@@ -27,6 +30,7 @@ Output: false
 ```
 
 ### Constraints:
+
 `s` and `t` consist of lowercase English letters.
 
 ### Recommended Time & Space Complexity
@@ -61,7 +65,7 @@ public class Solution {
 }
 ```
 
-```C++ 
+```C++
 #include <unordered_map>
 
 #include <string>

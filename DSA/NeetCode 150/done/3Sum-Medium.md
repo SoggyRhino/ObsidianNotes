@@ -1,6 +1,6 @@
 ---
 date created: 2025-01-09 15:38
-date updated: 2025-01-09 15:44
+date updated: 2025-01-09 15:47
 ---
 
 Tags: [[Array]] [[Two Pointers]]
@@ -58,8 +58,17 @@ You should aim for a solution with O(n^2) time and O(1) space, where n is the si
 ## Algorithm
 
 - Sort the Array
-- 
-
+- Iterate over the list excluding the last 2 places (we need 3 values to find a solution)
+	- If the value at the current index is the same as the last index skip
+		- This will ensure that we don't get duplicate solutions 
+	- Create a pointer `left` at the current index and a pointer `right` at the end of the array
+	- While `left < right`
+	- Check if they sum to 0 
+		- If they do, add the values to the list and move `left` and `right` inward 
+			- `left++` `right--`
+		- If the sum is greater than 0 then decrease `right` by 1 
+		- If the sum is less than 0 then increase `left` by 1
+- Return the list 
 ## Code
 
 ```java

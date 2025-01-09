@@ -1,7 +1,12 @@
+---
+date created: 2025-01-09 15:57
+---
+Tags: [[Hash Table]]
 ## Question
-Given an integer array nums, return true if any value appears more than once in the array, otherwise return false.
-### Example 1:
 
+Given an integer array `nums`, return true if any value appears more than once in the array, otherwise return false.
+
+### Example 1:
 
 ```java
 Input: nums = [1, 2, 3, 3]
@@ -12,7 +17,6 @@ Output: true
 
 ### Example 2:
 
-
 ```java
 Input: nums = [1, 2, 3, 4]
 
@@ -20,21 +24,19 @@ Output: false
 
 ```
 
-
 ### Recommended Time & Space Complexity
 
 You should aim for a solution with O(n) time and O(n) space, where n is the size of the input array.
 
+## Algorithm
 
-
-
-
-## Algorithm 
-- Make a Set 
-- for each element 
-	- if set contains element return true 
+- Make a Set
+- for each element
+  - if set contains element return true
 - Other wise return false
-## Code 
+
+## Code
+
 ```java
 public class Solution {
     public boolean hasDuplicate(int[] nums) {
@@ -50,9 +52,8 @@ public class Solution {
 }
 ```
 
-
 ## Links
 
 [NeetCode](https://neetcode.io/problems/duplicate-integer)
 
-[LeetCode](https://leetcode.com/problems/duplicate-integer)
+[LeetCode](https://neetcode.io/problems/duplicate-integer)
