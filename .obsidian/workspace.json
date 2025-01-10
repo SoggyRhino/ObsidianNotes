@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/Trapping Rain Water.md",
+                "file": "DSA/NeetCode 150/Longest Repeating Character Replacement.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trapping Rain Water"
+              "title": "Longest Repeating Character Replacement"
             }
           }
         ]
@@ -166,10 +166,11 @@
   },
   "active": "eb49e26ab02f576f",
   "lastOpenFiles": [
+    "DSA/NeetCode 150/Trapping Rain Water.md",
+    "DSA/NeetCode 150/Longest Repeating Character Replacement.md",
     "Tags/Two Pointers.md",
     "Tags/Hash Table.md",
     "Tags/Array.md",
-    "DSA/NeetCode 150/Trapping Rain Water.md",
     "DSA/NeetCode 150/Longest Consecutive Sequence.md",
     "DSA/NeetCode 150/Encode and Decode Strings.md",
     "DSA/NeetCode 150/Product of Array Except Self.md",
@@ -194,7 +195,6 @@
     "DSA/NeetCode 150/Word Search-Medium.md",
     "DSA/NeetCode 150/Word Search II-Hard.md",
     "DSA/NeetCode 150/Word Ladder-Hard.md",
-    "DSA/NeetCode 150/Word Break-Medium.md",
     "DSA",
     "Untitled.canvas",
     "Tags",
