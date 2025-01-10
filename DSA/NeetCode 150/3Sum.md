@@ -1,62 +1,51 @@
 ---
 date created: 2025-01-09 15:38
-date updated: 2025-01-09 17:13
+date updated: 2025-01-09 21:02
 tags:
   - Medium
 ---
 
-Tags: [[Array]] [[Two Pointers]]
-Similar Questions: [[Two Sum]], [[3Sum Closest-Medium]], [[4Sum-Medium]], [[Number of Arithmetic Triplets-Easy]], [[Minimum Sum of Mountain Triplets I-Easy]], [[Minimum Sum of Mountain Triplets II-Medium]]
+Tags: [[Array]], [[Two Pointers]], [[Sorting]]
+Similar Questions: [[Two Sum]], [[3Sum Closest]], [[4Sum]], [[3Sum Smaller]], [[Number of Arithmetic Triplets]], [[Minimum Sum of Mountain Triplets I]], [[Minimum Sum of Mountain Triplets II]]
 
 ## Question
 
-Given an integer array `nums`, return all the triplets `[nums[i], nums[j], nums[k]]` where `nums[i] + nums[j] + nums[k] == 0`, and the indices `i` , `j` and `k` are all distinct.
-The output should not contain any duplicate triplets. You may return the output and the triplets in any order.
+Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.
+Notice that the solution set must not contain duplicate triplets.
 
 ### Example 1:
 
 ```java
 Input: nums = [-1,0,1,2,-1,-4]
-
 Output: [[-1,-1,2],[-1,0,1]]
-
+Explanation: 
+nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.
+nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
+nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.
+The distinct triplets are [-1,0,1] and [-1,-1,2].
+Notice that the order of the output and the order of the triplets does not matter.
 ```
-
-Explanation:
-`nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.`
-`nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.`
-The distinct triplets are`  [-1,0,1] ` and `[-1,-1,2]`.
 
 ### Example 2:
 
 ```java
 Input: nums = [0,1,1]
-
 Output: []
-
-```
-
 Explanation: The only possible triplet does not sum up to 0.
+```
 
 ### Example 3:
 
 ```java
 Input: nums = [0,0,0]
-
 Output: [[0,0,0]]
-
-```
-
 Explanation: The only possible triplet sums up to 0.
+```
 
 ### Constraints:
 
-`3 <= nums.length <= 1000`
-`-10^5 <= nums[i] <= 10^5`
-
-### Recommended Time & Space Complexity
-
-You should aim for a solution with O(n^2) time and O(1) space, where n is the size of the input array.
+- `3 <= nums.length <= 3000`
+- `-10^5 <= nums[i] <= 10^5`
 
 ## Algorithm
 
