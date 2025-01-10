@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/Add Two Numbers-Medium.md",
+                "file": "DSA/NeetCode 150/Container With Most Water.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Add Two Numbers-Medium"
+              "title": "Container With Most Water"
             }
           }
         ]
@@ -166,6 +166,8 @@
   },
   "active": "b51cf876cf2259d5",
   "lastOpenFiles": [
+    "DSA/NeetCode 150/done/Top K Frequent Elements.md",
+    "DSA/NeetCode 150/Add Two Numbers-Medium.md",
     "DSA/NeetCode 150/done/Valid Sudoku.md",
     "DSA/NeetCode 150/rename.py",
     "DSA/NeetCode 150/rename.sh",
@@ -193,8 +195,6 @@
     "DSA/NeetCode 150/Find Median From Data Stream-Hard.md",
     "DSA/NeetCode 150/Evaluate Reverse Polish Notation-Medium.md",
     "DSA/NeetCode 150/Edit Distance-Medium.md",
-    "DSA/NeetCode 150/Distinct Subsequences-Hard.md",
-    "DSA/NeetCode 150/Diameter of Binary Tree-Easy.md",
     "DSA",
     "Untitled.canvas",
     "Tags",
