@@ -46,8 +46,9 @@ There may exists other ways to achieve this answer too.
     - Move the left pointer to the right until it is valid
     - Update count
   - Update result
-  
-- 
+
+- A window is only valid if `length - maxF <=k`
+	- `length = r -l + 1` (we need to add 1 because if `right == left` then the string is of length 1)
 
 ## Code
 

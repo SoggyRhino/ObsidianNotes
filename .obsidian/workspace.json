@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/Longest Repeating Character Replacement.md",
+                "file": "DSA/NeetCode 150/Permutation in String.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Longest Repeating Character Replacement"
+              "title": "Permutation in String"
             }
           }
         ]
@@ -166,8 +166,9 @@
   },
   "active": "eb49e26ab02f576f",
   "lastOpenFiles": [
-    "Maximum Value of an Ordered Triplet II.md",
     "DSA/NeetCode 150/Longest Repeating Character Replacement.md",
+    "DSA/NeetCode 150/Permutation in String.md",
+    "Maximum Value of an Ordered Triplet II.md",
     "DSA/NeetCode 150/Trapping Rain Water.md",
     "Tags/Two Pointers.md",
     "Tags/Hash Table.md",
@@ -194,7 +195,6 @@
     "DSA/NeetCode 150/rename.sh",
     "DSA/NeetCode 150/New Text Document.txt",
     "DSA/NeetCode 150/Word Search-Medium.md",
-    "DSA/NeetCode 150/Word Search II-Hard.md",
     "DSA",
     "Untitled.canvas",
     "Tags",
