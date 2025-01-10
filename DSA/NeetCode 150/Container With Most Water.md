@@ -40,9 +40,12 @@ Output: 1
 
 ## Algorithm
 
-- Create left and right pointer at 0 and `numslength -1` respectively 
+- Create left and right pointer at 0 and `heights.length -1` respectively 
 - While left is less than right 
-	- Find the current Area, `min(heights`
+	- Find the current Area, `min(heights[left],heights[right]) * right - left`
+	- Update the Max 
+	- Move the pointer with the smaller point inward 
+		- `left++` or `right--`
 
 ## Code
 
@@ -51,40 +54,21 @@ Output: 1
 class Solution {
 
     public int maxArea(int[] heights) {
-
         int left = 0;
-
         int right = heights.length-1;
-
-  
-
         int max =0;
-
-  
-  
-
+        
         while (left < right){
-
             int current = (right - left) * Math.min(heights[left], heights[right]);
-
             max = Math.max(max,current);
 
-  
-
             if (heights[left] < heights[right]){
-
                 left++;
-
             } else {
-
                 right--;
-
             }
-
         }
-
         return max;
-
     }
 
 }
@@ -93,3 +77,4 @@ class Solution {
 ## Links
 
 [LeetCode](https://leetcode.com/problems/container-with-most-water/description/)
+[NeetCode](https://neetcode.io/problems/max-water-container)
