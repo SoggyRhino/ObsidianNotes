@@ -83,3 +83,5 @@ public class Solution {
 ## Links
 
 [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/description/)
+
+[NeetCode](https://neetcode.io/problems/longest-repeating-substring-with-replacement)

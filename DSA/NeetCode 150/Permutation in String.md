@@ -1,5 +1,8 @@
 ---
 date created: 2025-01-10 14:36
+date updated: 2025-01-10 15:02
+tags:
+  - Medium
 ---
 
 Tags: [[Hash Table]], [[Two Pointers]], [[String]], [[Sliding Window]]
@@ -7,7 +10,7 @@ Similar Questions: [[Minimum Window Substring]], [[Find All Anagrams in a String
 
 ## Question
 
-Given two strings `s1` and `s2`, return `true` if `s2` contains a <span data-keyword="permutation-string" class=" cursor-pointer relative text-dark-blue-s text-sm"><div class="popover-wrapper inline-block" data-headlessui-state=""><div><div aria-expanded="false" data-headlessui-state="" id="headlessui-popover-button-:rt:"><div>permutation</div></div><div style="position: fixed; z-index: 40; inset: 0px auto auto 0px; transform: translate(436px, 183px);"></div></div></div></span> of `s1`, or `false` otherwise.
+Given two strings `s1` and `s2`, return `true` if `s2` contains a permutation of `s1`, or `false` otherwise.
 In other words, return `true` if one of `s1`'s permutations is the substring of `s2`.
 
 ### Example 1:
@@ -32,7 +35,57 @@ Output: false
 
 ## Algorithm
 
+- Create a HashMap of `s1` (character by occurrence)
+- For each substring of `s2` ((0, s1.length), (1, s1.length +1), … (s2.length - s1.length, s2.length))
+  - Create a HashMap of the substring (character by occurrence)
+  - If the substring map == the s1 map return true
+- Return false
+
 ## Code
+
+```java
+
+class Solution {
+
+    public boolean checkInclusion(String s1, String s2) {
+
+        Map<Character, Integer> map = new HashMap<>();
+
+  
+  
+
+        for (char c : s1.toCharArray())
+
+            map.put(c, map.getOrDefault(c,0)+1);
+
+  
+
+        for (int j =0; j <= s2.length()-s1.length(); j++){
+
+            Map<Character, Integer> map2 = new HashMap<>();
+
+            for (int k = 0; k < s1.length(); k++){
+
+                map2.put(s2.charAt(j + k), map2.getOrDefault(s2.charAt(j + k),0)+1);
+
+            }
+
+  
+
+            if (map.equals(map2))
+
+                return true;
+
+        }
+
+  
+
+        return false;
+
+    }
+
+}
+```
 
 ## Links
 
