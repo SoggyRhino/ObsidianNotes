@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home Page.md",
+                "file": "DSA/NeetCode 150/Linked List Cycle.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home Page"
+              "title": "Linked List Cycle"
             }
           }
         ],
@@ -183,8 +183,9 @@
   },
   "active": "89d9a9eb53503a76",
   "lastOpenFiles": [
-    "DSA/NeetCode 150/Permutation in String.md",
     "Home Page.md",
+    "DSA/NeetCode 150/Linked List Cycle.md",
+    "DSA/NeetCode 150/Permutation in String.md",
     "DSA/NeetCode 150/Longest Repeating Character Replacement.md",
     "Maximum Value of an Ordered Triplet II.md",
     "DSA/NeetCode 150/Trapping Rain Water.md",
@@ -208,7 +209,6 @@
     "0.md",
     "DSA/NeetCode 150/done/Top K Frequent Elements.md",
     "DSA/NeetCode 150/Add Two Numbers-Medium.md",
-    "DSA/NeetCode 150/done/Valid Sudoku.md",
     "DSA/NeetCode 150/rename.py",
     "DSA/NeetCode 150/rename.sh",
     "DSA/NeetCode 150/New Text Document.txt",
