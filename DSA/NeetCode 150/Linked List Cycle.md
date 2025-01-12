@@ -60,10 +60,45 @@ Explanation: There is no cycle in the linked list.
 ### Hare & Tortoise algorithm
 - Start 2 pointers fast and slow at the start of the list 
 - The fast pointer will advance 2 nodes while the slow will only advance 1 node 
+- If the fast node is null then there is an end to the array 
+- If slow equals fast there must be a loop 
+	- Fast has already finished and caught up to slow 
 
 
 ## Code
 
+```java
+class Solution {
+    public boolean hasCycle(ListNode head) {
+        Set<ListNode> set = new HashSet<>();
+
+        while (head != null){
+            if (!set.add(head))
+                return true;
+
+            head = head.next;
+        }
+        return false;
+    }
+}
+```
+
+```java
+class Solution {
+    public boolean hasCycle(ListNode head) {
+        ListNode fast = head, slow = head;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow)
+                return true;
+        }
+        return false;
+    }
+}
+
+```
 ## Links
 
 [LeetCode](https://leetcode.com/problems/linked-list-cycle/description/)
