@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/Invert Binary Tree.md",
+                "file": "DSA/NeetCode 150/Maximum Depth of Binary Tree.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Invert Binary Tree"
+              "title": "Maximum Depth of Binary Tree"
             }
           }
         ]
@@ -167,10 +167,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DSA/NeetCode 150/Invert Binary Tree.md",
     "DSA/NeetCode 150/Linked List Cycle.md",
     "DSA/NeetCode 150/3Sum.md",
     "DSA/NeetCode 150/Maximum Depth of Binary Tree.md",
-    "DSA/NeetCode 150/Invert Binary Tree.md",
     "DSA/NeetCode 150/Add Two Numbers.md",
     "DSA/NeetCode 150/Remove Nth Node From End of List.md",
     "Home Page.md",
