@@ -44,9 +44,15 @@ Output: [8,9,9,9,0,0,0,1]
 - It is guaranteed that the list represents a number that does not have leading zeros.
 
 ## Algorithm
-- Create
-
-
+- Create a new Linked list for the result 
+	- While l1 or l2 are not empty 
+		- Sum the current values (or 0) and add the carry from the previous place 
+		- If the sum is greater than 9 
+			- Decrease the sum by 10
+			- Increase the carry by 1 
+			- (This only works since it isn't possible to have a sum > 19 so we don't need to use the % and / which are more expensive)
+	- If both lists are done and there is still a carry, add it to the end of the result list 
+			
 
 ## Code
 
@@ -69,9 +75,13 @@ class Solution {
                 y = l2.val;
                 l2 = l2.next;
             }
-            carry = x + y + carry > 9 ? 1 : 0;
-            node.next = new ListNode(x + y + carry - (carry * 10) , null);
+
+            int sum = x + y + carry;
+            carry = sum > 9 ? 1 : 0;
+            sum -= carry * 10;
+            node.next = new ListNode(sum, null);
             node = node.next;
+
         }
 
         if (carry > 0)
@@ -85,3 +95,4 @@ class Solution {
 ## Links
 
 [LeetCode](https://leetcode.com/problems/add-two-numbers/description/)
+[NeetCode](https://neetcode.io/problems/add-two-numbers)
