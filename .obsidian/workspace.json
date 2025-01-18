@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/Remove Nth Node From End of List.md",
+                "file": "DSA/NeetCode 150/Add Two Numbers.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Remove Nth Node From End of List"
+              "title": "Add Two Numbers"
             }
           }
         ]
@@ -167,8 +167,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home Page.md",
     "DSA/NeetCode 150/Remove Nth Node From End of List.md",
+    "DSA/NeetCode 150/Add Two Numbers.md",
+    "Home Page.md",
     "Untitled",
     "DSA/NeetCode 150/Linked List Cycle.md",
     "DSA/NeetCode 150/Permutation in String.md",
@@ -193,7 +194,6 @@
     "DSA/NeetCode 150/Top K Frequent Elements.md",
     "11. Container With Most Water.md",
     "0.md",
-    "DSA/NeetCode 150/done/Top K Frequent Elements.md",
     "DSA/NeetCode 150/rename.py",
     "DSA/NeetCode 150/rename.sh",
     "DSA/NeetCode 150/New Text Document.txt",
