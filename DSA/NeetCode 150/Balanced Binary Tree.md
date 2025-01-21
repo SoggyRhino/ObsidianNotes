@@ -48,7 +48,6 @@ Output: true
 	- Else update the current height to `max(leftHeight, rightheight) + 1`
 
 - There is a better implementation but it is too confusing, maybe come back after more dfs
-
 ## Code
 
 ```java
