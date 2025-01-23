@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/Subtree of Another Tree.md",
+                "file": "DSA/NeetCode 150/Lowest Common Ancestor of a Binary Search Tree.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subtree of Another Tree"
+              "title": "Lowest Common Ancestor of a Binary Search Tree"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "right": {
     "id": "7ec272acb99cf3df",
@@ -168,8 +167,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "DSA/NeetCode 150/Same Tree.md",
     "DSA/NeetCode 150/Subtree of Another Tree.md",
+    "DSA/NeetCode 150/Lowest Common Ancestor of a Binary Search Tree.md",
+    "DSA/NeetCode 150/Same Tree.md",
     "Home Page.md",
     "DSA/NeetCode 150/Balanced Binary Tree.md",
     "Tree.md",
@@ -194,7 +194,6 @@
     "DSA/NeetCode 150/Product of Array Except Self.md",
     "DSA/NeetCode 150/Two Sum.md",
     "DSA/NeetCode 150/Valid Anagram.md",
-    "DSA/NeetCode 150/Container With Most Water.md",
     "DSA/NeetCode 150/rename.py",
     "DSA/NeetCode 150/rename.sh",
     "DSA/NeetCode 150/New Text Document.txt",

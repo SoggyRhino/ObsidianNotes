@@ -39,11 +39,9 @@ Output: false
 
 ## Algorithm
 - See if every sub tree is equal to the provided using  [[Same Tree]]'s Algorithm
-- 
 
 ## Code
 
-### Brute Force
 ```java 
 class Solution {  
 
