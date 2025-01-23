@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/Lowest Common Ancestor of a Binary Search Tree.md",
+                "file": "Tags/Depth-First Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lowest Common Ancestor of a Binary Search Tree"
+              "title": "Depth-First Search"
             }
           }
         ]
@@ -167,8 +167,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "DSA/NeetCode 150/Subtree of Another Tree.md",
+    "DSA/NeetCode 150/Binary Tree Level Order Traversal.md",
     "DSA/NeetCode 150/Lowest Common Ancestor of a Binary Search Tree.md",
+    "DSA/NeetCode 150/Subtree of Another Tree.md",
     "DSA/NeetCode 150/Same Tree.md",
     "Home Page.md",
     "DSA/NeetCode 150/Balanced Binary Tree.md",
@@ -193,7 +194,6 @@
     "DSA/NeetCode 150/Encode and Decode Strings.md",
     "DSA/NeetCode 150/Product of Array Except Self.md",
     "DSA/NeetCode 150/Two Sum.md",
-    "DSA/NeetCode 150/Valid Anagram.md",
     "DSA/NeetCode 150/rename.py",
     "DSA/NeetCode 150/rename.sh",
     "DSA/NeetCode 150/New Text Document.txt",
