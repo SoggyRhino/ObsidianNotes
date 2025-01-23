@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6c2c4dc8beb014fa",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "8b0a5b53732f3803",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/Balanced Binary Tree.md",
+                "file": "DSA/NeetCode 150/Subtree of Another Tree.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Balanced Binary Tree"
+              "title": "Subtree of Another Tree"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "right": {
     "id": "7ec272acb99cf3df",
@@ -165,13 +166,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8b0a5b53732f3803",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Tree.md",
+    "DSA/NeetCode 150/Same Tree.md",
+    "DSA/NeetCode 150/Subtree of Another Tree.md",
+    "Home Page.md",
     "DSA/NeetCode 150/Balanced Binary Tree.md",
+    "Tree.md",
     "Tags/Binary Tree.md",
     "Tags/Depth-First Search.md",
-    "Home Page.md",
     "DSA/NeetCode 150/Maximum Depth of Binary Tree.md",
     "DSA/NeetCode 150/Invert Binary Tree.md",
     "DSA/NeetCode 150/Linked List Cycle.md",
@@ -192,8 +195,6 @@
     "DSA/NeetCode 150/Two Sum.md",
     "DSA/NeetCode 150/Valid Anagram.md",
     "DSA/NeetCode 150/Container With Most Water.md",
-    "DSA/NeetCode 150/Contains Duplicate.md",
-    "DSA/NeetCode 150/Group Anagrams.md",
     "DSA/NeetCode 150/rename.py",
     "DSA/NeetCode 150/rename.sh",
     "DSA/NeetCode 150/New Text Document.txt",
