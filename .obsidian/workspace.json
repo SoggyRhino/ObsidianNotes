@@ -1,20 +1,25 @@
 {
   "main": {
-    "id": "e89916ba6fe4d7e5",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "7275c0e9a91bd64e",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "8d70c4342f3856da",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DSA/NeetCode 150/Untitled.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -150,6 +155,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "github-sync:Sync with Remote": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -159,8 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e7b1d097624cfba",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home Page.md",
+    "DSA/NeetCode 150/Untitled.md",
+    "Welcome.md",
     "Tree.md",
     "Tags/Two Pointers.md",
     "Tags/Hash Table.md",
@@ -170,7 +179,6 @@
     "Tags/Binary Tree.md",
     "Tags/Array.md",
     "Tags",
-    "Home Page.md",
     "DSA/NeetCode 150/Valid Sudoku.md",
     "DSA/NeetCode 150/Valid Palindrome.md",
     "DSA/NeetCode 150/Valid Anagram.md",
@@ -186,8 +194,6 @@
     "DSA/NeetCode 150/Maximum Depth of Binary Tree.md",
     "DSA/NeetCode 150/Lowest Common Ancestor of a Binary Search Tree.md",
     "DSA/NeetCode 150/Longest Repeating Character Replacement.md",
-    "DSA/NeetCode 150/Longest Consecutive Sequence.md",
-    "DSA/NeetCode 150/Linked List Cycle.md",
     "DSA/NeetCode 150",
     "DSA"
   ]
