@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/Untitled.md",
+                "file": "Breadth-First Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Breadth-First Search"
             }
           }
         ]
@@ -167,8 +167,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DSA/NeetCode 150/Binary Tree Right Side View.md",
+    "Breadth-First Search.md",
+    "DSA/NeetCode 150/Two Sum.md",
+    "DSA/NeetCode 150/Valid Palindrome.md",
+    "DSA/NeetCode 150/Subtree of Another Tree.md",
+    "DSA/NeetCode 150/Permutation in String.md",
+    "DSA/NeetCode 150/Same Tree.md",
+    "DSA/NeetCode 150/Top K Frequent Elements.md",
+    "DSA/NeetCode 150/Two Sum II - Input Array Is Sorted.md",
     "Home Page.md",
-    "DSA/NeetCode 150/Untitled.md",
     "Welcome.md",
     "Tree.md",
     "Tags/Two Pointers.md",
@@ -180,20 +188,12 @@
     "Tags/Array.md",
     "Tags",
     "DSA/NeetCode 150/Valid Sudoku.md",
-    "DSA/NeetCode 150/Valid Palindrome.md",
     "DSA/NeetCode 150/Valid Anagram.md",
-    "DSA/NeetCode 150/Two Sum.md",
-    "DSA/NeetCode 150/Two Sum II - Input Array Is Sorted.md",
     "DSA/NeetCode 150/Trapping Rain Water.md",
-    "DSA/NeetCode 150/Top K Frequent Elements.md",
-    "DSA/NeetCode 150/Subtree of Another Tree.md",
-    "DSA/NeetCode 150/Same Tree.md",
     "DSA/NeetCode 150/Remove Nth Node From End of List.md",
     "DSA/NeetCode 150/Product of Array Except Self.md",
-    "DSA/NeetCode 150/Permutation in String.md",
     "DSA/NeetCode 150/Maximum Depth of Binary Tree.md",
     "DSA/NeetCode 150/Lowest Common Ancestor of a Binary Search Tree.md",
-    "DSA/NeetCode 150/Longest Repeating Character Replacement.md",
     "DSA/NeetCode 150",
     "DSA"
   ]

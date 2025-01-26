@@ -19,7 +19,6 @@ Your solution must use O(1) additional space.
 Input: numbers = [1,2,3,4], target = 3
 
 Output: [1,2]
-
 ```
 
 Explanation: The sum of 1 and 2 is 3. Since we are assuming a 1-indexed array, index1 = 1, index2 = 2. We return [1, 2].
