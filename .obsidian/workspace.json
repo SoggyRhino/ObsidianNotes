@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Breadth-First Search.md",
+                "file": "Tags/Depth-First Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Breadth-First Search"
+              "title": "Depth-First Search"
             }
           }
         ]
@@ -167,8 +167,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Tags/Breadth-First Search.md",
+    "Tags/Depth-First Search.md",
+    "Tags/Binary Tree.md",
     "DSA/NeetCode 150/Binary Tree Right Side View.md",
-    "Breadth-First Search.md",
     "DSA/NeetCode 150/Two Sum.md",
     "DSA/NeetCode 150/Valid Palindrome.md",
     "DSA/NeetCode 150/Subtree of Another Tree.md",
@@ -178,13 +180,11 @@
     "DSA/NeetCode 150/Two Sum II - Input Array Is Sorted.md",
     "Home Page.md",
     "Welcome.md",
-    "Tree.md",
+    "Tags/Tree.md",
     "Tags/Two Pointers.md",
     "Tags/Hash Table.md",
     "Tags/Strings.md",
     "Tags/Heap.md",
-    "Tags/Depth-First Search.md",
-    "Tags/Binary Tree.md",
     "Tags/Array.md",
     "Tags",
     "DSA/NeetCode 150/Valid Sudoku.md",
