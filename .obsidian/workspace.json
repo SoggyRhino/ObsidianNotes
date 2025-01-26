@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tags/Depth-First Search.md",
+                "file": "Tags/Breadth-First Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Depth-First Search"
+              "title": "Breadth-First Search"
             }
           }
         ]
@@ -167,8 +167,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Tags/Breadth-First Search.md",
     "Tags/Depth-First Search.md",
+    "Tags/Breadth-First Search.md",
     "Tags/Binary Tree.md",
     "DSA/NeetCode 150/Binary Tree Right Side View.md",
     "DSA/NeetCode 150/Two Sum.md",
