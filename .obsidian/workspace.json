@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tags/Breadth-First Search.md",
+                "file": "Tags/Depth-First Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Breadth-First Search"
+              "title": "Depth-First Search"
             }
           }
         ]
@@ -167,8 +167,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Tags/Depth-First Search.md",
+    "Home Page.md",
     "Tags/Breadth-First Search.md",
+    "Tags/Depth-First Search.md",
     "Tags/Binary Tree.md",
     "DSA/NeetCode 150/Binary Tree Right Side View.md",
     "DSA/NeetCode 150/Two Sum.md",
@@ -178,7 +179,6 @@
     "DSA/NeetCode 150/Same Tree.md",
     "DSA/NeetCode 150/Top K Frequent Elements.md",
     "DSA/NeetCode 150/Two Sum II - Input Array Is Sorted.md",
-    "Home Page.md",
     "Welcome.md",
     "Tags/Tree.md",
     "Tags/Two Pointers.md",
