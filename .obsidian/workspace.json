@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tags/Depth-First Search.md",
+                "file": "DSA/NeetCode 150/K Closest Points to Origin.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Depth-First Search"
+              "title": "K Closest Points to Origin"
             }
           }
         ]
@@ -167,9 +167,14 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "DSA/NeetCode 150/Last Stone Weight.md",
+    "DSA/NeetCode 150/K Closest Points to Origin.md",
+    "DSA/NeetCode 150/Linked List Cycle.md",
+    "DSA/NeetCode 150/Invert Binary Tree.md",
+    "Tags/Heap (Priority Queue).md",
     "Home Page.md",
-    "Tags/Breadth-First Search.md",
     "Tags/Depth-First Search.md",
+    "Tags/Breadth-First Search.md",
     "Tags/Binary Tree.md",
     "DSA/NeetCode 150/Binary Tree Right Side View.md",
     "DSA/NeetCode 150/Two Sum.md",
@@ -189,11 +194,6 @@
     "Tags",
     "DSA/NeetCode 150/Valid Sudoku.md",
     "DSA/NeetCode 150/Valid Anagram.md",
-    "DSA/NeetCode 150/Trapping Rain Water.md",
-    "DSA/NeetCode 150/Remove Nth Node From End of List.md",
-    "DSA/NeetCode 150/Product of Array Except Self.md",
-    "DSA/NeetCode 150/Maximum Depth of Binary Tree.md",
-    "DSA/NeetCode 150/Lowest Common Ancestor of a Binary Search Tree.md",
     "DSA/NeetCode 150",
     "DSA"
   ]
