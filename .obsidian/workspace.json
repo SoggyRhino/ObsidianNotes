@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/Kth Largest Element in an Array.md",
+                "file": "DSA/NeetCode 150/Find Median From Data Stream.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kth Largest Element in an Array"
+              "title": "Find Median From Data Stream"
             }
           }
         ]
@@ -167,8 +167,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "DSA/NeetCode 150/K Closest Points to Origin.md",
+    "DSA/NeetCode 150/Task Scheduler.md",
+    "DSA/NeetCode 150/Find Median From Data Stream.md",
     "DSA/NeetCode 150/Kth Largest Element in an Array.md",
+    "DSA/NeetCode 150/K Closest Points to Origin.md",
     "DSA/NeetCode 150/Last Stone Weight.md",
     "DSA/NeetCode 150/Linked List Cycle.md",
     "DSA/NeetCode 150/Invert Binary Tree.md",
@@ -191,9 +193,7 @@
     "Tags/Hash Table.md",
     "Tags/Strings.md",
     "Tags/Heap.md",
-    "Tags/Array.md",
     "Tags",
-    "DSA/NeetCode 150/Valid Sudoku.md",
     "DSA/NeetCode 150",
     "DSA"
   ]
