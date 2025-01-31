@@ -41,8 +41,33 @@ Explanation: The answer [[-2,4],[3,3]] would also be accepted.
 - `-10^4 <= x<sub>i</sub>, y<sub>i</sub> <= 10^4`
 
 ## Algorithm
+- Add all points to a min heap based on there distance from 0,0 
+- Return the first k elements from the heap 
+
+- Note: You can use distance^2 since the ordering will remain the same and you can skip expensive sqrt operation 
 
 ## Code
+
+```java
+class Solution {
+    public int[][] kClosest(int[][] points, int k) {
+
+        PriorityQueue<int[]> heap = new PriorityQueue<>((int[]a,int[]b) -> 
+            Integer.compare(a[0]* a[0] +a[1]*a[1], b[0]* b[0] +b[1]*b[1]));
+
+        for (int[] point: points){
+            heap.offer(point);
+        }
+
+        int[][] result = new int[k][2];
+        for (int i=0; i < k; i++){
+            result[i] = heap.poll();
+        }
+
+        return result;
+    }
+}
+```
 
 ## Links
 
