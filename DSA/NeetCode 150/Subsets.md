@@ -1,10 +1,16 @@
+---
+date created: 2025-02-07 21:36
+tags:
+  - Medium
+---
+
 Tags: [[Array]], [[Backtracking]], [[Bit Manipulation]]
 Similar Questions: [[Subsets II]], [[Generalized Abbreviation]], [[Letter Case Permutation]], [[Find Array Given Subset Sums]], [[Count Number of Maximum Bitwise-OR Subsets]]
+
 ## Question
 
 Given an integer array `nums` of **unique** elements, return _all possible_ subsets _(the power set)_.
 The solution set **must not** contain duplicate subsets. Return the solution in **any order**.
-
 
 ### Example 1:
 
@@ -25,24 +31,29 @@ Output: [[],[0]]
 - `1 <= nums.length <= 10`
 - `-10 <= nums[i] <= 10`
 - All the numbers of
+
 `nums` are **unique**.
 
 ## Algorithm
 
-### Brute Force 
-- For each element in `nums`:
-	- For each subset
-		- Create a copy that has the current `num`
-		- Create a copy that does not have the current `num`
+### Brute Force
 
-### DFS 
-- Iterate over `nums` as a binary tree 
-	- For the left branch: include the current `num`
-	- For the right branch: don't include it 
-	- Once we reach a leaf: save the current subset
+- For each element in `nums`:
+  - For each subset
+    - Create a copy that has the current `num`
+    - Create a copy that does not have the current `num`
+
+### DFS
+
+- Iterate over `nums` as a binary tree
+  - For the left branch: include the current `num`
+  - For the right branch: don't include it
+  - Once we reach a leaf: save the current subset
+
 ## Code
 
-### Brute Force 
+### Brute Force
+
 ```java
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
@@ -62,7 +73,8 @@ class Solution {
 }
 ```
 
-### DFS 
+### DFS
+
 ```java
 
 public class Solution {
@@ -87,6 +99,6 @@ public class Solution {
 }
 ```
 
-
 ## Links
+
 [LeetCode](https://leetcode.com/problems/subsets/description/)

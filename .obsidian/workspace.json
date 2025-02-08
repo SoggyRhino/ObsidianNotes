@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DSA/NeetCode 150/Subsets.md",
+                "file": "DSA/NeetCode 150/Combination Sum.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Subsets"
+              "title": "Combination Sum"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home Page.md",
     "DSA/NeetCode 150/Subsets.md",
+    "DSA/NeetCode 150/Combination Sum.md",
+    "Home Page.md",
     "Untitled 1",
     "Untitled",
     "DSA/NeetCode 150/Find Median From Data Stream.md",
@@ -204,7 +205,6 @@
     "Tags/Tree.md",
     "Tags/Two Pointers.md",
     "Tags/Hash Table.md",
-    "Tags/Strings.md",
     "Tags",
     "DSA/NeetCode 150",
     "DSA"
