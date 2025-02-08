@@ -2,6 +2,7 @@
 date created: 2025-01-31 00:04
 tags:
   - Hard
+date updated: 2025-01-31 01:39
 ---
 
 Tags: [[Two Pointers]], [[Design]], [[Sorting]], [[Heap (Priority Queue)]], [[Data Stream]]
@@ -51,32 +52,34 @@ medianFinder.findMedian(); // return 2.0
 
 ## Algorithm
 
+### Overview
 
-### Overview 
- - We split the stream into a left and right side 
-	 - Left is all the values less than the mean, and is a Max-Heap 
-		 - This is because we only care about the greatest value on the left side (closest to the middle)
-	- Right is all the values greater than the mean, and is a Min-Heap 
-		 - This is because we only care about the least value on the left side (closest to the middle)
+- We split the stream into a left and right side
+  - Left is all the values less than the mean, and is a Max-Heap
+    - This is because we only care about the greatest value on the left side (closest to the middle)
+  - Right is all the values greater than the mean, and is a Min-Heap
+    - This is because we only care about the least value on the left side (closest to the middle)
 
-### Adding a Number 
+### Adding a Number
 
-- We add to the right side if the number is greater than the smallest number on the right 
-	- `num > right.peek()`
-- Otherwise we add it to the left side 
-- If the right side has more than 1 more element than the left 
-	- Remove the smallest element from the right and add it to the left 
-- If the left side has more than 1 more element than the right 
-	- Remove the largest element from the left and add it to the right 
+- We add to the right side if the number is greater than the smallest number on the right
+  - `num > right.peek()`
+- Otherwise we add it to the left side
+- If the right side has more than 1 more element than the left
+  - Remove the smallest element from the right and add it to the left
+- If the left side has more than 1 more element than the right
+  - Remove the largest element from the left and add it to the right
 
 ### Finding the Median
-- If each side has an equal number of values 
-	- Return the average of the 2 middle values 
-- Otherwise return the value from the side with the most elements 
-	- This is the left side in the following implementation
+
+- If each side has an equal number of values
+  - Return the average of the 2 middle values
+- Otherwise return the value from the side with the most elements
+  - This is the left side in the following implementation
+
 ## Code
 
-```java 
+```java
 class MedianFinder {
     PriorityQueue<Integer> left;
     PriorityQueue<Integer> right;
