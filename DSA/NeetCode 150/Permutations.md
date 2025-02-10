@@ -86,26 +86,29 @@ public class Solution {
 ### Backtracking
 
 ```java
-public class Solution {
-    List<List<Integer>> res;
+
+class Solution {
     public List<List<Integer>> permute(int[] nums) {
-        res = new ArrayList<>();
-        backtrack(new ArrayList<>(), nums, new boolean[nums.length]);
+        List<List<Integer>> res = new ArrayList<>();
+        boolean[] used =  new boolean[nums.length];
+        helper(nums, used, new ArrayList<>(), res);
         return res;
     }
 
-    public void backtrack(List<Integer> perm, int[] nums, boolean[] pick) {
-        if (perm.size() == nums.length) {
-            res.add(new ArrayList<>(perm));
+
+    public void helper(int[] nums, boolean[] used, List<Integer> current, List<List<Integer>> res ){
+        if (current.size() == nums.length){
+            res.add(new ArrayList<>(current));
             return;
         }
-        for (int i = 0; i < nums.length; i++) {
-            if (!pick[i]) {
-                perm.add(nums[i]);
-                pick[i] = true;
-                backtrack(perm, nums, pick);
-                perm.remove(perm.size() - 1);
-                pick[i] = false;
+
+        for (int i =0; i < nums.length; i++){
+            if (!used[i]){
+                current.add(nums[i]);// lock in nums[i] for this position 
+                used[i] = true;
+                helper(nums,used,current,res); //generate all permutations that start with current
+                current.removeLast(); // this is the backtrack, try all other values for the current index
+                used[i] = false;
             }
         }
     }
