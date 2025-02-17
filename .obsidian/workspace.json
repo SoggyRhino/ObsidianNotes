@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d9c4214c8617e91c",
@@ -177,10 +178,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home Page.md",
     "DSA/NeetCode 150/Subsets II.md",
     "DSA/NeetCode 150/Combination Sum.md",
     "DSA/NeetCode 150/Permutations.md",
-    "Home Page.md",
     "DSA/NeetCode 150/Subsets.md",
     "Untitled 1",
     "Untitled",
