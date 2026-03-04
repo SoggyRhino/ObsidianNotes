@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home Page.md",
+                "file": "DSA/NeetCode 150/Valid Palindrome.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home Page"
+              "title": "Valid Palindrome"
+            }
+          },
+          {
+            "id": "f350d06c1d7609b4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -165,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "homepage:Open homepage": false,
       "github-sync:Sync with Remote": false,
       "switcher:Open quick switcher": false,
@@ -177,6 +188,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Tags/Binary Tree.md",
+    "Tags/Array.md",
     "Home Page.md",
     "Pasted image 20250217184751.png",
     "DSA/NeetCode 150/Subsets II.md",
@@ -195,7 +208,6 @@
     "Tags/Heap (Priority Queue).md",
     "Tags/Depth-First Search.md",
     "Tags/Breadth-First Search.md",
-    "Tags/Binary Tree.md",
     "DSA/NeetCode 150/Binary Tree Right Side View.md",
     "DSA/NeetCode 150/Two Sum.md",
     "DSA/NeetCode 150/Valid Palindrome.md",

@@ -54,7 +54,8 @@ Output: 2
 
 -  We are looking for the node that is in between p and q 
 - If  P and Q are both greater than the current node they both must be on the right subtree
-- If P and Q are both less than the current node they 
+- If P and Q are both less than the current node they both must be on the left subtree
+- Otherwise P and Q diverge on the current node and this is the result
 
 ## Code
 ### Recursive 
